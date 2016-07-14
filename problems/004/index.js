@@ -3,6 +3,10 @@ A palindromic number reads the same both ways.
 The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.
 
 Find the largest palindrome made from the product of two 3-digit numbers.
+
+COMPLETED ON:
+  1468529241434
+  Thu Jul 14 2016 13:47:21 GMT-0700 (PDT)
 */
 
 (function() {
