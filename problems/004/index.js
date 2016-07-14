@@ -18,17 +18,17 @@ CURRENT RECORD: { iterations: 7156, largestNum: 906609 }
   console.log(result)
 
   function checkPalindrome (num) {
-    const forwardArray = `${num}`.split('')
-    const reversedArray = `${num}`.split('').reverse()
+    const stringNum = `${num}`
 
-    let i = forwardArray.length
+    let i = 0
+    let length = stringNum.length
 
-    while(i > 0) {
-      if(forwardArray[i] !== reversedArray[i]) {
+    while(i < length) {
+      if(stringNum[i] !== stringNum[length - (1 + i)]) {
         return false
       }
 
-      i--
+      i++
     }
 
     return true
